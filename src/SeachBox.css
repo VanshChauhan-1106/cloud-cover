@@ -1,0 +1,14 @@
+.SearchBox Button {
+  margin-left: 10px;
+}
+
+form {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  /* align-items: center; */
+}
+
+form .input {
+  width: 300px;
+}

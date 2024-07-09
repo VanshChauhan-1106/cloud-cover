@@ -1,0 +1,54 @@
+.WeatherInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.WeatherInfo .card > p {
+  font-size: 1.5rem;
+  text-align: start;
+  padding: 1rem 1rem;
+  border: 1px solid gray;
+  margin: 1rem 1.5rem;
+  border-collapse: collapse;
+  border-radius: 5px;
+}
+
+.WeatherInfo .card > p:hover {
+  background-color: rgb(228, 222, 215);
+  cursor: context-menu;
+  transform: scaleX(1.05);
+}
+
+.WeatherInfo .card > p .bold {
+  font-weight: 600;
+}
+
+.card {
+  padding: 1rem 0;
+  width: 450px;
+  background-color: aquamarine;
+  color: aqua;
+}
+
+
+.card-img {
+  height: 150px;
+  width: 150px;
+  border-radius: 5px;
+}
+
+.weather-icon {
+  height: 60px;
+}
+
+.city-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copyright {
+    font-size: 2rem;
+}

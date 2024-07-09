@@ -1,0 +1,13 @@
+#root {
+  text-align: center;
+}
+
+* {
+  font-family: Roboto, sans-serif;
+}
+
+html {
+  background: linear-gradient(45deg, lightcoral, lightskyblue);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
